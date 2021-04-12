@@ -1,0 +1,143 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Start driver",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13568000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "driver is called",
+            "match": {
+              "location": "stepDefinitions.RegStepDef.driver_is_called()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-12T04:36:43.728Z",
+        "line": 6,
+        "name": "positive login",
+        "description": "",
+        "id": "register-feature;positive-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9364000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on login page",
+            "match": {
+              "location": "stepDefinitions.RegStepDef.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1183000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters credentials",
+            "match": {
+              "location": "stepDefinitions.RegStepDef.user_enters_credentials(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "fname",
+                  "Roshni"
+                ]
+              },
+              {
+                "cells": [
+                  "lname",
+                  "Roshni@123"
+                ]
+              },
+              {
+                "cells": [
+                  "address",
+                  "Nerul"
+                ]
+              },
+              {
+                "cells": [
+                  "emailaddress",
+                  "Roshni@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "phone",
+                  "1234567890"
+                ]
+              },
+              {
+                "cells": [
+                  "gender",
+                  "Female"
+                ]
+              },
+              {
+                "cells": [
+                  "hobbies",
+                  "Hockey"
+                ]
+              },
+              {
+                "cells": [
+                  "country",
+                  "India"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 374000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks on submit button",
+            "match": {
+              "location": "stepDefinitions.RegStepDef.user_clicks_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user is on the home page",
+            "match": {
+              "location": "stepDefinitions.RegStepDef.user_is_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register feature",
+    "description": "",
+    "id": "register-feature",
+    "keyword": "Feature",
+    "uri": "file:featurefiles/register.feature",
+    "tags": []
+  }
+]
